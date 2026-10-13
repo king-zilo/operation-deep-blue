@@ -171,6 +171,13 @@ kbd {
   cursor: not-allowed;
 }
 
+.btn-icon {
+  width: 1.1em;
+  height: 1.1em;
+  vertical-align: -0.2em;
+  margin-right: 6px;
+}
+
 .btn small {
   color: var(--muted);
   text-transform: none;
