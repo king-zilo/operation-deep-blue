@@ -13,7 +13,7 @@ A browser-based Battleship game in which you take on **Admiral Byte**, a sarcast
 - **Effects:** hit explosions, miss ripples, "ship sunk" banners, screen shake, and victory and defeat finales you can skip.
 - **Mission debrief:** outcome, shots, hits, accuracy, ships sunk and remaining, battle duration, a performance rank (Deckhand to Fleet Admiral) and Admiral Byte's assessment. Includes **Launch Another Battle** and **Review Battlefield** buttons.
 - **Accessibility:** keyboard play (arrow keys and Enter/Space on the grids), ARIA labels on every cell, and `prefers-reduced-motion` support plus a manual Motion toggle (Auto / Full / Reduced).
-- **Sound:** small synthesized Web Audio effects with no audio files. Sound is **muted by default**.
+- **Sound:** small synthesized Web Audio effects with no audio files. Sound is **muted by default**. Your sound and motion choices are saved in `localStorage`.
 - **Responsive layout** for phones, tablets and desktops.
 
 ## Technology stack
