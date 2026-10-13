@@ -25,6 +25,7 @@ This file records the **real** bugs found while building Operation Deep Blue, an
 | Issue | Resolution |
 | --- | --- |
 | Node and npm were not installed on the build machine | Installed Node 20 with nvm |
+| ESLint flagged `vi` as undefined in `App.test.jsx`, which used the global instead of importing it | Imported `vi` from `vitest` explicitly |
 | ESLint reported 70 `react/prop-types` errors (the template rule assumes runtime PropTypes) | Turned the rule off. This is a JavaScript project without PropTypes, and component contracts are covered by tests |
 
 ## Polish changes (not bugs)
